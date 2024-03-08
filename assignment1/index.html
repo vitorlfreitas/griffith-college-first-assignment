@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Freitas</title>
+    <link rel="shortcut icon" href="./assets/Skull.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="page">
+        <!-- Header of my WebSite -->
+        <header class="header">
+            <!-- Logo that links to the initial page -->
+            <a href="index.html" target="_self" class="header__link">
+                <!-- Main title of my website -->
+                <h1 class="header__title">Vitor Freitas</h1>
+            </a>
+            <!-- Subtitle of the Header -->
+            <h2 class="header__subtitle">Personal Profile Page</h2>
+        </header>
+        <!-- Main Tag -->
+        <main class="main">
+            <!-- Section with my personal photo -->
+            <div class="main__photo">
+                <picture>
+                    <source media="(max-width: 550px)" srcset="./assets/photo-s.jpg">
+                    <source media="(max-width: 840px)" srcset="./assets/photo-m.jpg">
+                    <img src="./assets/photo-l.jpg" alt="A picture of the developer of this webpage" class="main__photo--img">
+                </picture>
+            </div>
+            <!-- Section with my personal information -->
+            <section class="main__info">
+                <h2 class="main__info--title">About Me</h2>
+                <p class="main__info--paragraph">Hello there! My name is Vitor Freitas. I am 23 years old and Brazilian. I have been studying software development for over a year. I used to be a bartender in Brazil, which was a great time, I could swap stories and ideas with interesting folks.</p>
+                <p class="main__info--paragraph">Getting a degree is crucial for my personal life, I know that it will be challenging, and I also feel a bit rusty, but that is part of the game, I am loving every minute of it.</p>
+                <p class="main__info--paragraph">Here in Cork, I usually spend my time working or studying. I love to study and learn new things. I could not see myself studying another degree than Computer Science, I feel that this degree will make me use 100% of my capacity, I really believe I am good at that and I will change my life with that.</p>
+
+                <!-- Paragraph to cite the author of my favorite quotation -->
+                <p class="main__info-quote--author">By Marie Curie</p>
+                <blockquote class="main__info--quote">
+                    "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves. We must believe that we are gifted for something and that this thing must be attained"
+                </blockquote>
+
+            </section> 
+
+            <!-- Div with link to facts.html -->
+            <div class="main__facts">
+                <a href="facts.html" class="main__facts--link">Some facts about me</a>
+            </div>
+        </main>
+        <!-- Footer of all pages -->
+        <footer class="footer">
+            <!-- Link to the Official Griffith Website -->
+            <a href="https://www.griffith.edu.au/" target="_blank" rel="noopener noreferrer" class="footer__link">
+                <!-- A picture tag to manage the size of the images -->
+                <picture class="footer__link__logo">
+                    <!-- For widths less than 550px -->
+                    <source media="(max-width: 550px)" srcset=".//assets/griffith-college-logo.jpg" class="footer__link__logo--img">
+                    <!-- For all others screen size -->
+                    <img src="./assets/griffith-college-logo2.jpg" alt="Griffith College logo" class="footer__link__logo--img">
+                </picture>
+            </a>
+        </footer>
+        <!-- End of the page -->
+    </div>
+    <!-- End of the body tag -->
+</body>
+</html>

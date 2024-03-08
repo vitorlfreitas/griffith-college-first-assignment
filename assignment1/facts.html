@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Freitas</title>
+    <link rel="shortcut icon" href="./assets/Skull.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="page">
+        <!-- Header of my WebSite -->
+        <header class="header">
+            <!-- Logo that links to the initial page -->
+            <a href="index.html" target="_self" class="header__link">
+                <!-- Main title of my website -->
+                <h1 class="header__title">Vitor Freitas</h1>
+            </a>
+            <!-- Subtitle of the Header -->
+            <h2 class="header__subtitle">Personal Profile Page</h2>
+        </header>
+        <!-- Main content of the ´page -->
+        <main class="main">
+            <section class="about">
+                <h2 class="about__subtitle">5 Things About Me</h2>
+                <ul class="about__list">
+                    <li class="about__list--item">
+                        I am Married and from Brazil
+                    </li>
+                    <li class="about__list--item">
+                        I do not accept not being able to understand something. If I do not understand something, I do not stop until I learn, comprehend and master it in a way I can teach it to someone.
+                    </li>
+                    <li class="about__list--item">
+                        I prefer Java to JavaScript
+                    </li>
+                    <li class="about__list--item">
+                        My favorite food is Pizza at the moment
+                    </li>
+                    <li class="about__list--item">
+                        I am very determined in the things I set out to do
+                    </li>
+                </ul>
+            </section>
+            <!-- A section for  movies -->
+            <section class="movies">
+                <h2 class="movies__subtitle">5 Favorite Movies</h2>
+                <ol class="movies__list">
+                    <li class="movies__list--item">
+                        Harry Potter (All of them)
+                    </li>
+                    <li class="movies__list--item">
+                        Gladiator (2000)
+                    </li>
+                    <li class="movies__list--item">
+                        Soul (2020)
+                    </li>
+                    <li class="movies__list--item">
+                        The Fast and the Furious: Tokyo Drift (2006)
+                    </li>
+                    <li class="movies__list--item">
+                        Ratatouille (2007)
+                    </li>
+                </ol>
+            </section>
+            <!-- A section for favorites websites -->
+            <section class="websites">
+                <h2 class="websites__subtitle">5 Favorite Websites</h2>
+                <ul class="websites__list">
+                    <li class="websites__list__item">
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="list__link">
+                            YouTube
+                        </a>
+                    </li>
+                    <li class="websites__list__item">
+                        <a href="https://techguide.sh/" target="_blank" rel="noopener noreferrer" class="websites__list__item--link">
+                            TechGuide
+                        </a>
+                    </li>
+                    <li class="websites__list__item">
+                        <a href="https://chat.openai.com/" target="_blank" rel="noopener noreferrer" class="websites__list__item--link">
+                            ChatGPT
+                        </a>
+                    </li>
+                    <li class="websites__list__item">
+                        <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer" class="websites__list__item--link">
+                            LeetCode
+                        </a>
+                    </li>
+                    <li class="websites__list__item">
+                        <a href="https://theuselessweb.com/" target="_blank" rel="noopener noreferrer" class="websites__list__item--link">
+                            The Useless Website
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <!-- Footer of all pages -->
+        <footer class="footer">
+            <!-- Link to the Official Griffith Website -->
+            <a href="https://www.griffith.edu.au/" target="_blank" rel="noopener noreferrer" class="footer__link">
+                <!-- A picture tag to manage the size of the images -->
+                <picture class="footer__link__logo">
+                    <!-- For widths less than 550px -->
+                    <source media="(max-width: 550px)" srcset=".//assets/griffith-college-logo.jpg" class="footer__link__logo--img">
+                    <!-- For all others screen size -->
+                    <img src="./assets/griffith-college-logo2.jpg" alt="Griffith College logo" class="footer__link__logo--img">
+                </picture>
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
